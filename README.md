@@ -27,4 +27,4 @@ In a **bash shell** enter
 Enter `awk -f mu-puzzle.awk help` to get some help.
 
 Have fun!  
-*--Oliver Kolle*
+*-- Oliver Kolle*
