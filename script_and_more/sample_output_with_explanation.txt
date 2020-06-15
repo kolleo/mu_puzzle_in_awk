@@ -1,0 +1,25 @@
+output line: <step>. r<rule>[(<position>)] word
+
+0. MI         #we start with this word
+1. r2 MII     #rule 2 has been applied; MII is derived
+2. r2 MIIII
+3. r1 MIIIIU  #rule 1 has been applied
+4. r2 MIIIIUIIIIU
+5. r3(7) MIIIIUUIU  #four occurences of III in the previous word MIIIIUIIIIU; the substitution acc. to rule 3 has taken place at position 7
+6. r2 MIIIIUUIUIIIIUUIU
+7. r3(10) MIIIIUUIUUIUUIU
+8. r4(9) MIIIIUUIIUUIU
+9. r4(6) MIIIIIIUUIU  #two occurences of UU in the previous word MIIIIUUIIUUIU; the substitution acc. to rule 4 has taken place at position 6
+10. r2 MIIIIIIUUIUIIIIIIUUIU
+11. r2 MIIIIIIUUIUIIIIIIUUIUIIIIIIUUIUIIIIIIUUIU
+12. r3(24) MIIIIIIUUIUIIIIIIUUIUIIUIUUIUIIIIIIUUIU
+
+
+0. MI
+1. r2 MII
+2. r2 MIIII
+3. r1 MIIIIU
+4. r2 MIIIIUIIIIU
+5. r3(2) MUIUIIIIU
+6. r3(6) MUIUIUU
+7. r4 MUIUI       #application of rule 4 is unambiguous; position of substitution isn't displayed

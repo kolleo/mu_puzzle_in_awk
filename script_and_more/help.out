@@ -1,0 +1,16 @@
+PURPOSE: Generates a random derivation chain in the MIU system, starting with "MI".
+
+USAGE:   awk -f mu-puzzle.awk [<options>]
+         awk -f mu-puzzle.awk help
+
+OPTIONS: s<num>    number of steps, i.e. length of the derivation chain
+         x<len>    If derived word exceeds this length, it will be displayed abbreviated.
+
+EXAMPLE: awk -f mu-puzzle.awk s12 x100
+
+OUTPUT FORMAT: <step>. r<rule>[(<pos>)] <word>
+
+               step   number of current step
+               rule   number of applied rule
+               pos    position of substitution when application of rule is ambiguous
+               word   derived word
