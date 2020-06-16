@@ -22,7 +22,7 @@ In a **bash shell** enter
 
     awk -f mu-puzzle.awk  
 
-> HINT! If it seems that you get the same derivation chain over and over again. Don't bother! Run the script somes more times! You'll eventually obtain a different sequence of steps.
+> HINT! If you get the same derivation chain over and over again. Don't bother! Run the script some more times! You'll eventually obtain a different sequence of steps.
 
 Enter `awk -f mu-puzzle.awk help` to get some help.
 

@@ -22,4 +22,4 @@ output line: <step>. r<rule>[(<position>)] word
 4. r2 MIIIIUIIIIU
 5. r3(2) MUIUIIIIU
 6. r3(6) MUIUIUU
-7. r4 MUIUI       #application of rule 4 is unambiguous; position of substitution isn't displayed
+7. r4 MUIUI       #application of rule 4 is unambiguous; this is why position of substitution isn't displayed
